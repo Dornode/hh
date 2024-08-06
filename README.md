@@ -19,7 +19,7 @@ Content-Type: application/json
 
 {
 "name": "John Doe",
-"email": "john.doe@example.com"
+"email": "test@mail.ru"
 }
 
 
@@ -49,7 +49,7 @@ Content-Type: application/json
 {
 "user_id": "5f25644e7f07875a57a2d4a5",
 "name": "John Doe",
-"email": "john.doe@example.com"
+"email": "test@mail.ru"
 }
 
 
@@ -61,7 +61,7 @@ POST /api/users/authenticate
 Content-Type: application/json
 
 {
-"email": "john.doe@example.com",
+"email": "test@mail.ru",
 "password": "password123"
 }
 
